@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow:1px 0px 2px 1px dimgray;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.card{
+    width: 250px;
+    border: 2px solid #000;
+    margin: 10px;
+   
+   
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+
+}
+
+.image{
+    width: 100%;
+}
+.text{
+    text-align: center;
+    padding: 5px;
+}
